@@ -1,0 +1,56 @@
+body {
+    font-size: 18px;
+    font-family:sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+#title {
+    font-size: 42px;
+    font-weight: 800;
+
+}
+.header {
+text-align: center;
+padding: 30px;
+margin: 10px;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+
+#image {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin:0 auto;
+   
+}
+#img-caption {
+    display: block;
+    margin: 15px auto;
+}
+#tribute-info {
+    max-width: 500px;
+    text-align: left;
+    display: block;
+    margin: 0 auto;  
+    
+   
+}
+#bottom {
+    display: flex;
+    background-color: antiquewhite;
+  
+}
+.divider{
+    border-bottom: 5px solid black;
+}
+
+}
+@media (max-width:600px){
+    #img { width:100%}
+}
+.quote {
+    font-size: 1.5rem;
+}
